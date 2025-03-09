@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using mygitapp.Models;
 
 namespace mygitapp.Controllers;
-
+//Class home controller
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
