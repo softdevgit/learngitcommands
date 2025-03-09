@@ -6,6 +6,7 @@ namespace mygitapp.Controllers;
 //Class home controller
 public class HomeController : Controller
 {
+    //Commit from local branch1
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
