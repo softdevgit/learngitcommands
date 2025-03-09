@@ -20,7 +20,10 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    /// <summary>
+    /// Privacy one two three
+    /// </summary>
+    /// <returns></returns>
     public IActionResult Privacy()
     {
         return View();
