@@ -12,7 +12,10 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-
+    /// <summary>
+    /// This is home page
+    /// </summary>
+    /// <returns></returns>
     public IActionResult Index()
     {
         return View();
