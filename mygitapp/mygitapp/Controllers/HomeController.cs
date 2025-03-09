@@ -4,6 +4,7 @@ using mygitapp.Models;
 
 namespace mygitapp.Controllers;
 //Class home controller
+//Commit from local branch 2
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
